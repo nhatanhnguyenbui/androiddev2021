@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ForecastFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -26,7 +27,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/cloudy_day">
+             android:src="@drawable/cloud"  >
          </ImageView>
 
           <TextView
@@ -59,7 +60,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/snow">
+             android:src="@drawable/rain"  >
          </ImageView>
 
           <TextView
@@ -92,7 +93,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/rain">
+             android:src="@drawable/storm"  >
          </ImageView>
 
           <TextView
@@ -125,7 +126,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/bolt">
+             android:src="@drawable/sun"  >
          </ImageView>
 
           <TextView
@@ -158,7 +159,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/sun">
+             android:src="@drawable/cloud"  >
          </ImageView>
 
           <TextView
@@ -191,7 +192,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/cloudy_day">
+             android:src="@drawable/rain"  >
          </ImageView>
 
           <TextView
@@ -224,7 +225,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/storm">
+             android:src="@drawable/storm"  >
          </ImageView>
 
           <TextView
@@ -257,7 +258,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/tornado">
+             android:src="@drawable/sun"  >
          </ImageView>
 
           <TextView
@@ -290,7 +291,7 @@
              android:layout_height="match_parent"
              android:layout_weight="1"
              android:padding="5dp"
-             android:src="@drawable/flood">
+             android:src="@drawable/storm"  >
          </ImageView>
 
           <TextView
@@ -303,5 +304,6 @@
              android:gravity="center_vertical">
          </TextView>
      </LinearLayout>
+</LinearLayout>
 
-</FrameLayout>
+
