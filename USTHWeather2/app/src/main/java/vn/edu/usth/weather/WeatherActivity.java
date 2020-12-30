@@ -1,51 +1,53 @@
 package vn.edu.usth.weather;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
-import android.telecom.Call;
 import android.util.Log;
+
+import vn.edu.usth.weather.Fragments.ForecastFragment;
+import vn.edu.usth.weather.R;
 
 public class WeatherActivity extends AppCompatActivity {
     private static final String TAG = "WeatherActivity";
 
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        ForecastFragment firstFragment =  new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+        //ForecastFragment firstFragment = new ForecastFragment();
+        //getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
         Log.i(TAG, "Created");
-
     }
 
     @Override
-    protected void onStart(){
+    public void onStart() {
         super.onStart();
-        Log.i(TAG, "onStart");
+        Log.i(TAG, "Started");
     }
 
     @Override
-    protected void onResume(){
-        super.onResume();
-        Log.i(TAG, "onResume");
-    }
-
-    @Override
-    protected void onPause(){
+    public void onPause() {
         super.onPause();
-        Log.i(TAG, "onPause");
+        Log.i(TAG, "Paused");
     }
 
     @Override
-    protected void onStop(){
+    public void onResume() {
+        super.onResume();
+        Log.i(TAG, "Resumed");
+    }
+
+    @Override
+    public void onStop() {
         super.onStop();
-        Log.i(TAG, "onStop");
+        Log.i(TAG, "Stopped");
     }
 
     @Override
-    protected void onDestroy(){
+    public void onDestroy() {
         super.onDestroy();
-        Log.i(TAG, "onDestroy");
+        Log.i(TAG, "Destroyed");
     }
+
 }
