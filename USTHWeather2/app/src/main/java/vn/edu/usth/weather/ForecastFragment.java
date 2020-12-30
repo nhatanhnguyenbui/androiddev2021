@@ -1,4 +1,4 @@
-package vn.edu.usth.weather;
+package vn.edu.usth.weather.Fragments;
 
 import android.graphics.Color;
 import android.os.Bundle;
