@@ -1,8 +1,24 @@
 <resources>
     <string name="app_name">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="cloud">Cloud</string>
-    <string name="sun">Sunny</string>
-    <string name="rain">Rain</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <string name="cloudy">Cloudy</string>
+    <string name="snowy">Snowy</string>
+    <string name="rainy">Rainy</string>
+    <string name="bolt">Bolt</string>
+    <string name="sunny">Sunny</string>
     <string name="storm">Storm</string>
+    <string name="tornado">Tornado</string>
+    <string name="flood">Flood</string>
+
+    <string name="paris">Paris</string>
+    <string name="setting">Settings</string>
+    <string name="refresh">Refresh</string>
 </resources>
